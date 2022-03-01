@@ -1,10 +1,11 @@
 import './App.css';
+import Youtube from './components/Youtube'
 
 function Music() {
   return (
-    <div>
-        <h1>Music Page</h1>
-    </div>
+    <>
+    <Youtube />
+    </>
   );
 }
 

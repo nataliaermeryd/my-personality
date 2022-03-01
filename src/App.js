@@ -21,8 +21,8 @@ function App() {
 }
 
 const Home = () => (
-  <div>
-    <h1>Home Page</h1>
+  <div className="home">
+    <h1>⦒IS IT ABOUT ME⦑</h1>
   </div>
 );
 

@@ -1,10 +1,11 @@
 import './App.css';
+import Cards from './components/Cards';
 
 function About() {
   return (
-    <div>
-        <h1>About Me</h1>
-    </div>
+    <>
+    <Cards />
+    </>
   );
 }
 
