@@ -1,10 +1,12 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import { DarkMode } from '../DarkMode';
 
 function Cards() {
   return (
     <div className='cards'>
+      <DarkMode>
       <h1>⦒MY LIFE IN PICTURES⦑</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -44,6 +46,7 @@ function Cards() {
           </ul>
         </div>
       </div>
+      </DarkMode>
     </div>
   );
 }
