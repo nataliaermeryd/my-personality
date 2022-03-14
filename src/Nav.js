@@ -13,6 +13,9 @@ function Nav() {
                 <Link style={{color: 'white', textDecoration: 'none'}} to="/music">
                     <li>⦒MUSIC⦑</li>
                 </Link>
+                <Link style={{color: 'white', textDecoration: 'none'}} to="/contact">
+                    <li>⦒CONTACT⦑</li>
+                </Link>
             </ul>
         </nav>
     );

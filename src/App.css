@@ -6,13 +6,15 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+
+  width: 100%;
+  z-index: 99;
   min-height: 10vh;
+
   background: linear-gradient(0.25turn, #ffbd96, #e66465, #9198e5);
   color: #fff;
   border: 1px solid rgb(204, 204, 204);
-  position: fixed;
-  width: 100%;
-  z-index: 99999;
 }
 
 .nav-links {
